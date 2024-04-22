@@ -1,0 +1,33 @@
+{
+  "name": "purse",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "roboto-fontface": "*",
+    "vue": "^3.4.21",
+    "vue-router": "4",
+    "vuetify": "^3.5.16",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "license": "MIT",
+  "type": "module"
+}
